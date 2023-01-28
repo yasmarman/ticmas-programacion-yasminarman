@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1;
+
+}
+
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.8;
+    padding-top: 20px;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: 430px 570px;
+    grid-template-rows: 442px 200px;
+}
+
+
+
+.cvimagen img {
+    width: 100%;
+}
+
+.infopersonal {
+    padding: 80px 50px 50px 43px;
+}
+
+.infopersonal p {
+    padding-right: 85px;
+}
+
+.infopersonal--bars {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 8fr;
+    background-color: hsl(240deg 7% 97% / 64%);
+    padding: 44px 33px 37px 11px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: start;
+    justify-items: stretch;
+}
+
+.infopersonal2 {
+    display: flex;
+    align-items: flex-start;
+    background-color: hsl(240deg 7% 97% / 64%);
+    padding: 44px 33px 37px 36px;
+}
+
+.infopersonal2 h4,
+.infopersonal--bars h4 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+hr {
+    border: 1.2px solid black;
+    margin: 0 4px 0 4px;
+}
+
+
+
+.infopersonal2 p {
+    padding-left: 15px;
+    padding-top: 0;
+}
+
+.progress--bars {
+    padding-left: 20px;
+}
+
+.progress {
+    background: rgb(223, 223, 223);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 20px;
+    width: 85%;
+    margin-bottom: 12px;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(63, 63, 63);
+    height: 22px;
+}
+
+.progress-value2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(63, 63, 63);
+    height: 22px;
+}
+
+.progress-value3 {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(63, 63, 63);
+    height: 22px;
+}
+
+.progress span {
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+
+
+
+
+
+/******************************portfolio****************************/
+.portfolio {
+    max-width: 1000px;
+}
+
+
+.toggles {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    row-gap: 31px;
+
+}
+
+.post {
+    width: 31%;
+
+}
+
+.post>img {
+    object-fit: cover;
+    width: 100%;
+    height: 220px;
+}
+
