@@ -259,6 +259,24 @@ hr {
     padding: 1rem 0 0 1rem;
 }
 
+body {
+    padding-top: 0;
+}
+
+.infopersonal {
+    padding: 50px 50px 0 43px;
+}
+.presentacion {
+    display: grid;
+    grid-template-rows: 27% 40% auto;
+}
+
+.cvimagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 }
 
 
