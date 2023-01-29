@@ -220,12 +220,12 @@ hr {
 
 .footer {
     width: 100%;
-    background-color: rgb(155, 155, 155) ;
+    background-color: rgba(155, 155, 155, 0.233) ;
     height: 80%;
 }
 
 .footer p {
-    color: #fff;
+    color: rgb(163, 163, 163);
     padding: 1%;
 }
 
